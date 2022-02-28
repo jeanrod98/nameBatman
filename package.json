@@ -2,7 +2,7 @@
   "name": "imagen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jeanrod98.github.io/nameBatman",
+  "homepage": "http://jeanrod98.github.io/home",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

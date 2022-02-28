@@ -25,7 +25,7 @@ function Inicio() {
 //Ir atras
 const atras = (e) => {
 e.preventDefault();
-navigate('/');
+navigate('/home');
 }
   return (
     <Contenedor>
