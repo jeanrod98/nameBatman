@@ -19,7 +19,7 @@ function Form() {
 
             localStorage.setItem('nameUser', nombre);
             // console.log('correcto');
-            navigate('/name');
+            navigate('/nameBatman/success');
         }
     }
   return (
@@ -49,6 +49,12 @@ const ContenedorForm = styled.div`
     background: #000;
     min-height: 100vh;
     flex-direction: column;
+
+    @media screen and (max-width: 800px){
+        width: 100%;
+        min-height: 100vh;
+
+    }
 `;
 
 const ContenedorBoton = styled.div`
@@ -75,13 +81,15 @@ const BotonGenerar = styled.button`
 `;
 const InputDiv = styled.div`
 // width: 100%;
-display: flex;
-flex-direction: column;
-label{
-    margin-top: 5px;
-    color: #fff;
-    font-size: 12px;
-}
+    display: flex;
+    flex-direction: column;
+    label{
+        margin-top: 5px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+   
        
 `;
 const InputText = styled.input`
@@ -96,5 +104,11 @@ const InputText = styled.input`
     text-transform: uppercase;
     text-align: center;
     
+    @media screen and (max-width: 800px){
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        
+    }
 
 `;
