@@ -19,7 +19,7 @@ function Form() {
 
             localStorage.setItem('nameUser', nombre);
             // console.log('correcto');
-            navigate('/nameBatman');
+            navigate('/name');
         }
     }
   return (

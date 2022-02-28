@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/home" element={<Form />} />
-        <Route path="/nameBatman" element={<Inicio />} />
+        <Route path="/name" element={<Inicio />} />
       </Routes>
     </Router>
   );
